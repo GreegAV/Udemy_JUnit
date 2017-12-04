@@ -25,4 +25,15 @@ public class ArrayEquals {
         Arrays.sort(arr);
         assertEquals(expected,arr);
     }
+
+    @Test
+    public void testArrayEquals_False2(){
+        int[] arr = {1,2,3,56,3};
+        int[] expected = {1,2,3,4,56};
+        Arrays.sort(arr);
+        assertArrayEquals(expected,arr);
+    }
+
+
+
 }
