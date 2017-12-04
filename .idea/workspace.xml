@@ -71,8 +71,8 @@
       <file leaf-file-name="ArrayEquals.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Udemy_JUnit/src/test/java/ArrayEquals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            <state relative-caret-position="219">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -266,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayEquals.testArrayEquals_False2">
+  <component name="RunManager" selected="JUnit.ArrayEquals">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -327,26 +327,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ArrayEquals.testArrayEquals_False" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Udemy_JUnit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayEquals" />
-      <option name="METHOD_NAME" value="testArrayEquals_False" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="ArrayEquals.testArrayEquals_False2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Udemy_JUnit" />
@@ -367,15 +347,35 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="StringHelperBeforeAfter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayEquals.testArrayEquals_NPE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Udemy_JUnit" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringHelperBeforeAfter" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ArrayEquals" />
+      <option name="METHOD_NAME" value="testArrayEquals_NPE" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ArrayEquals.testArrayEquals_NPE2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Udemy_JUnit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayEquals" />
+      <option name="METHOD_NAME" value="testArrayEquals_NPE2" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -448,19 +448,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.StringHelperBeforeAfter" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_False" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayEquals" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_False2" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayEquals" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_False2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_False2" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayEquals" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_False" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StringHelperBeforeAfter" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayEquals" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_False2" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -527,21 +527,31 @@
       <option name="project" value="LOCAL" />
       <updated>1512397631703</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="AssertArraysEqual">
+      <created>1512398504668</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1512398504668</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="ArrayEquals - 2017.12.04 at 16h 26m 53s.xml">
       <configuration name="ArrayEquals" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayEquals_testArrayEquals - 2017.12.04 at 16h 26m 13s.xml">
-      <configuration name="ArrayEquals.testArrayEquals" configurationId="JUnit" />
+    <history-entry file="ArrayEquals - 2017.12.04 at 16h 46m 09s.xml">
+      <configuration name="ArrayEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayEquals - 2017.12.04 at 16h 47m 32s.xml">
+      <configuration name="ArrayEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayEquals - 2017.12.04 at 16h 48m 27s.xml">
+      <configuration name="ArrayEquals" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ArrayEquals_testArrayEquals - 2017.12.04 at 16h 26m 49s.xml">
       <configuration name="ArrayEquals.testArrayEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayEquals_testArrayEquals_False - 2017.12.04 at 16h 26m 43s.xml">
-      <configuration name="ArrayEquals.testArrayEquals_False" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ArrayEquals_testArrayEquals_False2 - 2017.12.04 at 16h 41m 15s.xml">
       <configuration name="ArrayEquals.testArrayEquals_False2" configurationId="JUnit" />
@@ -549,17 +559,14 @@
     <history-entry file="ArrayEquals_testArrayEquals_False2 - 2017.12.04 at 16h 41m 35s.xml">
       <configuration name="ArrayEquals.testArrayEquals_False2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperBeforeAfter - 2017.12.04 at 16h 16m 56s.xml">
-      <configuration name="StringHelperBeforeAfter" configurationId="JUnit" />
+    <history-entry file="ArrayEquals_testArrayEquals_False2 - 2017.12.04 at 16h 48m 18s.xml">
+      <configuration name="ArrayEquals.testArrayEquals_False2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperBeforeAfter - 2017.12.04 at 16h 17m 45s.xml">
-      <configuration name="StringHelperBeforeAfter" configurationId="JUnit" />
+    <history-entry file="ArrayEquals_testArrayEquals_NPE - 2017.12.04 at 16h 44m 51s.xml">
+      <configuration name="ArrayEquals.testArrayEquals_NPE" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperBeforeAfter - 2017.12.04 at 16h 18m 00s.xml">
-      <configuration name="StringHelperBeforeAfter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringHelperBeforeAfter - 2017.12.04 at 16h 18m 23s.xml">
-      <configuration name="StringHelperBeforeAfter" configurationId="JUnit" />
+    <history-entry file="ArrayEquals_testArrayEquals_NPE2 - 2017.12.04 at 16h 47m 22s.xml">
+      <configuration name="ArrayEquals.testArrayEquals_NPE2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -634,8 +641,8 @@
         <state relative-caret-position="0">
           <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
           <folding>
-            <element signature="e#7175#7179#0" expanded="false" />
-            <element signature="e#7185#7189#0" expanded="false" />
+            <element signature="e#7171#7175#0" expanded="false" />
+            <element signature="e#7181#7185#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -683,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Udemy_JUnit/src/test/java/ArrayEquals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="219">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
