@@ -54,4 +54,13 @@ public class ArrayEquals {
         assertArrayEquals(expected, arr);
     }
 
+    @Test(expected = NullPointerException.class)
+    // Unexpected exception, expected<java.lang.NullPointerException> but was<java.lang.AssertionError>
+    public void testArrayEquals_NPE3() {
+        int[] arr = {};
+        int[] expected = {1, 2, 3, 4, 56};
+        Arrays.sort(arr);
+        assertArrayEquals(expected, arr);
+    }
+
 }

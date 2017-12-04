@@ -71,8 +71,8 @@
       <file leaf-file-name="ArrayEquals.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Udemy_JUnit/src/test/java/ArrayEquals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="57" column="103" lean-forward="false" selection-start-line="57" selection-start-column="103" selection-end-line="57" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -266,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayEquals">
+  <component name="RunManager" selected="JUnit.ArrayEquals.testArrayEquals_NPE3">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -296,26 +296,6 @@
       <option name="MAIN_CLASS_NAME" value="ArrayEquals" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ArrayEquals.testArrayEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Udemy_JUnit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayEquals" />
-      <option name="METHOD_NAME" value="testArrayEquals" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -375,6 +355,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ArrayEquals" />
       <option name="METHOD_NAME" value="testArrayEquals_NPE2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ArrayEquals.testArrayEquals_NPE3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Udemy_JUnit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArrayEquals" />
+      <option name="METHOD_NAME" value="testArrayEquals_NPE3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -448,19 +448,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayEquals" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_False2" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE2" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayEquals" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_False2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE2" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayEquals" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_False2" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE2" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE3" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayEquals" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_False2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE2" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayEquals.testArrayEquals_NPE" />
       </list>
     </recent_temporary>
   </component>
@@ -534,13 +534,17 @@
       <option name="project" value="LOCAL" />
       <updated>1512398504668</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="@Test (expected)">
+      <created>1512398926477</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1512398926477</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayEquals - 2017.12.04 at 16h 26m 53s.xml">
-      <configuration name="ArrayEquals" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArrayEquals - 2017.12.04 at 16h 46m 09s.xml">
       <configuration name="ArrayEquals" configurationId="JUnit" />
     </history-entry>
@@ -549,9 +553,6 @@
     </history-entry>
     <history-entry file="ArrayEquals - 2017.12.04 at 16h 48m 27s.xml">
       <configuration name="ArrayEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayEquals_testArrayEquals - 2017.12.04 at 16h 26m 49s.xml">
-      <configuration name="ArrayEquals.testArrayEquals" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ArrayEquals_testArrayEquals_False2 - 2017.12.04 at 16h 41m 15s.xml">
       <configuration name="ArrayEquals.testArrayEquals_False2" configurationId="JUnit" />
@@ -568,6 +569,12 @@
     <history-entry file="ArrayEquals_testArrayEquals_NPE2 - 2017.12.04 at 16h 47m 22s.xml">
       <configuration name="ArrayEquals.testArrayEquals_NPE2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArrayEquals_testArrayEquals_NPE3 - 2017.12.04 at 16h 49m 50s.xml">
+      <configuration name="ArrayEquals.testArrayEquals_NPE3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayEquals_testArrayEquals_NPE3 - 2017.12.04 at 16h 50m 18s.xml">
+      <configuration name="ArrayEquals.testArrayEquals_NPE3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -581,7 +588,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4248366" sideWeight="0.50907713" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4248366" sideWeight="0.49092284" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4248366" sideWeight="0.49092284" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -613,7 +620,8 @@
     <MESSAGE value="Before&#10;After" />
     <MESSAGE value="BeforeClass&#10;AfterClass" />
     <MESSAGE value="AssertArraysEqual" />
-    <option name="LAST_COMMIT_MESSAGE" value="AssertArraysEqual" />
+    <MESSAGE value="@Test (expected)" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Test (expected)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -641,8 +649,8 @@
         <state relative-caret-position="0">
           <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
           <folding>
-            <element signature="e#7171#7175#0" expanded="false" />
-            <element signature="e#7181#7185#0" expanded="false" />
+            <element signature="e#7178#7182#0" expanded="false" />
+            <element signature="e#7188#7192#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -690,8 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Udemy_JUnit/src/test/java/ArrayEquals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="57" column="103" lean-forward="false" selection-start-line="57" selection-start-column="103" selection-end-line="57" selection-end-column="103" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
