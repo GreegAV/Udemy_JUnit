@@ -7,32 +7,36 @@ import static org.junit.Assert.assertEquals;
  * Created by avg-m on 04/12/2017.
  */
 public class StringHelperTest {
-
+    StringHelper stringHelper = new StringHelper();
     @Test
     public void truncateAInFirst2PositionsTest0() {
-        StringHelper stringHelper = new StringHelper();
         assertEquals("BAXX", stringHelper.truncateAInFirst2Positions("ABAXX"));
-
         // expected, actual
     }
 
     @Test
     public void truncateAInFirst2PositionsTest2() {
-        StringHelper stringHelper2 = new StringHelper();
-        assertEquals("AXX", stringHelper2.truncateAInFirst2Positions("AAAXX"));
-
+        assertEquals("AXX", stringHelper.truncateAInFirst2Positions("AAAXX"));
         // expected, actual
     }
 
     @Test
     public void truncateAInFirst2PositionsTest3() {
-        StringHelper stringHelper3 = new StringHelper();
-        assertEquals("BCAXX", stringHelper3.truncateAInFirst2Positions("BCAXX"));
-
+        assertEquals("BCAXX", stringHelper.truncateAInFirst2Positions("BCAXX"));
         // expected, actual
     }
 
-//    @Test
-//    public void areFirstAndLastTwoCharactersTheSameTest() {
-//    }
+    @Test
+    public void areFirstAndLastTwoCharactersTheSameTest_ABCD() {
+        assertEquals(false, stringHelper.areFirstAndLastTwoCharactersTheSame("ABCD"));
+    }@Test
+    public void areFirstAndLastTwoCharactersTheSameTest_ABAB() {
+        assertEquals(true, stringHelper.areFirstAndLastTwoCharactersTheSame("ABAB"));
+    }@Test
+    public void areFirstAndLastTwoCharactersTheSameTest_AB() {
+        assertEquals(true, stringHelper.areFirstAndLastTwoCharactersTheSame("AB"));
+    }@Test
+    public void areFirstAndLastTwoCharactersTheSameTest_A() {
+        assertEquals(false, stringHelper.areFirstAndLastTwoCharactersTheSame("A"));
+    }
 }
