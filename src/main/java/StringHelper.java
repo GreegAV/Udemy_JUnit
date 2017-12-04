@@ -1,6 +1,6 @@
 public class StringHelper {
 
-    public String truncateAInFirst2Positions(String str) {
+    public static String truncateAInFirst2Positions(String str) {
         if (str.length() <= 2)
             return str.replaceAll("A", "");
 
@@ -11,7 +11,7 @@ public class StringHelper {
                 + stringMinusFirst2Chars;
     }
 
-    public boolean areFirstAndLastTwoCharactersTheSame(String str) {
+    public static boolean areFirstAndLastTwoCharactersTheSame(String str) {
 
         if (str.length() <= 1)
             return false;
@@ -25,4 +25,7 @@ public class StringHelper {
         return first2Chars.equals(last2Chars);
     }
 
+    public static void main(String[] args) {
+        System.out.println(truncateAInFirst2Positions("ABAXX"));
+    }
 }
