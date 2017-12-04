@@ -1,6 +1,8 @@
 import org.junit.*;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 
 /**
@@ -29,14 +31,32 @@ public class StringHelperTest {
     @Test
     public void areFirstAndLastTwoCharactersTheSameTest_ABCD() {
         assertEquals(false, stringHelper.areFirstAndLastTwoCharactersTheSame("ABCD"));
-    }@Test
+    }
+
+    @Test
     public void areFirstAndLastTwoCharactersTheSameTest_ABAB() {
         assertEquals(true, stringHelper.areFirstAndLastTwoCharactersTheSame("ABAB"));
-    }@Test
+    }
+
+    @Test
     public void areFirstAndLastTwoCharactersTheSameTest_AB() {
         assertEquals(true, stringHelper.areFirstAndLastTwoCharactersTheSame("AB"));
-    }@Test
+    }
+
+    @Test
     public void areFirstAndLastTwoCharactersTheSameTest_A() {
         assertEquals(false, stringHelper.areFirstAndLastTwoCharactersTheSame("A"));
     }
+
+    @Test
+    public void areFirstAndLastTwoCharactersTheSameTest_false() {
+        assertFalse( stringHelper.areFirstAndLastTwoCharactersTheSame("A"));
+    }
+
+    @Test
+    public void areFirstAndLastTwoCharactersTheSameTest_true() {
+        assertTrue( stringHelper.areFirstAndLastTwoCharactersTheSame("AAA"));
+    }
+
+
 }
